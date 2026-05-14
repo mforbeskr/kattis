@@ -9,7 +9,9 @@ public class flatbokuveisla
     int slices = sc.nextInt();
     int persons = sc.nextInt();
 
-    int leftoverSlices ;
+    int leftoverSlices = slices % persons;
+
+    System.out.println(leftoverSlices);
 
   }
 }
