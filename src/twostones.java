@@ -6,14 +6,13 @@ public class twostones
   {
     Scanner sc = new Scanner(System.in);
 
-    int input = sc.nextInt();
+    int n = sc.nextInt();
 
-    int even = input % 2;
-
-    if (input == even)
-    {
+    if (n % 2 != 0) {
       System.out.println("Alice");
+    } else {
+      System.out.println("Bob");
     }
-
+    sc.close();
   }
 }
